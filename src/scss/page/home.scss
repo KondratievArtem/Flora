@@ -1,0 +1,29 @@
+.home-header {
+	// .home-header__container
+
+	&__container {
+	}
+
+	// .home-header__content
+
+	&__content {
+		position: relative;
+		display: flex;
+	}
+
+	// .home-header__column
+
+	&__column {
+		flex: 0 1 70%;
+		overflow: hidden;
+
+		&_mod {
+			flex: 0 1 30%;
+		}
+	}
+
+	// .home-header__column-ikon
+
+	&__column-ikon {
+	}
+}

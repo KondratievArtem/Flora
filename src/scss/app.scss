@@ -1,0 +1,60 @@
+// FONT FEMELI
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+// nullstayl
+@import './nullStayl.scss';
+// conponens stayle
+@import './components/header.scss';
+@import './components/footer.scss';
+
+body {
+	font-family: 'Open Sans';
+	font-weight: normal;
+}
+
+.wrapper {
+	min-height: 100vh;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 1 auto;
+}
+
+footer {
+	background-color: #365c00;
+}
+
+.container {
+	max-width: 1306px;
+	padding: 0 5px;
+	margin: 0 auto;
+}
+
+.sociale {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+
+	a {
+		width: 45px;
+		height: 45px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		svg {
+			fill: #ffffff;
+
+			&:hover {
+				fill: #79b729;
+			}
+		}
+	}
+
+	& > *:not(:last-child) {
+		margin-right: 15px;
+	}
+}

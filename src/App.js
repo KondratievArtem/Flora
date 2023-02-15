@@ -1,4 +1,4 @@
-import './App.css';
+import './scss/app.scss';
 // pages
 import About from './page/about';
 import Basket from './page/basket';
