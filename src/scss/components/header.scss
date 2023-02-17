@@ -387,3 +387,164 @@
 	&__content {
 	}
 }
+
+.about {
+	margin-bottom: 50px;
+
+	&__title {
+		display: flex;
+		justify-content: space-between;
+		padding: 0 0 15px 0;
+		border-bottom: 1px solid rgba(54, 92, 0, 0.25);
+		margin-bottom: 25px;
+
+		h3 {
+			font-weight: 600;
+			font-size: 24px;
+			line-height: 33px;
+			text-transform: uppercase;
+
+			color: #365c00;
+		}
+
+		a {
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 19px;
+			text-transform: uppercase;
+
+			color: #365c00;
+		}
+	}
+
+	&__garant {
+		position: relative;
+		// .about__garant_bg
+
+		&_bg {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+
+			img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+
+	&__garant-icons {
+		position: relative;
+		z-index: 5;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	&__garant-icon {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 50px 10px;
+
+		img {
+			max-width: 134px;
+		}
+
+		p {
+			max-width: 185px;
+			text-align: center;
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 19px;
+
+			text-transform: uppercase;
+
+			color: #365c00;
+		}
+	}
+
+	// .about__why-us
+
+	&__why-us {
+		color: #365c00;
+	}
+
+	// .about__why-us-title
+
+	&__why-us-title {
+		font-size: 18px;
+		line-height: 25px;
+		text-transform: uppercase;
+		margin-bottom: 21px;
+		h4 {
+			font-weight: 600;
+		}
+	}
+
+	&__why-us-content {
+		ul {
+			& > *:not(:last-child) {
+				margin-bottom: 21px;
+			}
+
+			li {
+				display: flex;
+				align-items: flex-start;
+
+				font-size: 18px;
+				line-height: 25px;
+
+				img {
+					margin-right: 6px;
+				}
+			}
+		}
+	}
+}
+
+.inst {
+	// .inst__title
+
+	margin-bottom: 50px;
+
+	&__title {
+		display: flex;
+		justify-content: space-between;
+		padding: 0 0 15px 0;
+		border-bottom: 1px solid rgba(54, 92, 0, 0.25);
+		margin-bottom: 25px;
+
+		h3 {
+			font-weight: 600;
+			font-size: 24px;
+			line-height: 33px;
+			text-transform: uppercase;
+
+			color: #365c00;
+		}
+
+		a {
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 19px;
+			text-transform: uppercase;
+
+			color: #365c00;
+		}
+	}
+
+	// .blog__body
+
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		padding: 0 5px;
+	}
+}
