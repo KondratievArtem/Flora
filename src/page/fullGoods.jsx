@@ -1,6 +1,8 @@
 import '../scss/page/full-goods.scss';
 // component
 import Title from '../componans/title';
+import Item from '../componans/item';
+import AddComent from '../componans/addComent';
 // img
 import fon from '../source/img/full-goods/fon.png';
 import mass from '../source/img/full-goods/massege.svg';
@@ -8,13 +10,17 @@ import g1 from '../source/img/full-goods/Mask Group1.svg';
 import g from '../source/img/full-goods/Mask Group.svg';
 import imge from '../source/img/full-goods/kremdeo-beefresh.png';
 import video from '../source/img/full-goods/video/Rectangle.png';
+import imgBG from '../source/img/home/about/Vector.png';
+import imgGroup1 from '../source/img/full-goods/payment/Maskgroup.svg';
+import imgGroup2 from '../source/img/full-goods/payment/OBJECTS.svg';
+import imgGroup3 from '../source/img/full-goods/payment/Maskgroup2.svg';
 
 const FullGoods = () => {
 	return (
 		<div className="main__full-goods full-goods">
-			<div className="full-goods__container container">
+			<section className="full-goods__container container">
 				<Title name={'КремДео "BeeFresh" (18 мл)'} goIn={'в магазин'} linck={'/'} />
-				<section className="full-goods__inf-goods ">
+				<div className="full-goods__inf-goods ">
 					<div>
 						<div className="full-goods__slider">
 							<div className="full-goods__slider-imgs">
@@ -129,38 +135,153 @@ const FullGoods = () => {
 							</div>
 						</div>
 					</div>
-				</section>
-				<section className="full-goods__video">
-					<div className="full-goods__container container">
-						<Title name={'відео'} goIn={'перейти в youtube'} linck={'/'} />
+				</div>
+			</section>
+			<section className="full-goods__video">
+				<div className="full-goods__container container">
+					<Title name={'відео'} goIn={'перейти в youtube'} linck={'/'} />
 
-						<div className="full-goods__content-video video">
-							<div className="video__video-bg ibg">
-								<img src={video} alt="video" />
+					<div className="full-goods__content-video video">
+						<div className="video__video-bg ibg">
+							<img src={video} alt="video" />
+						</div>
+						<div className="video__body-text">
+							<div className="video__title">
+								<p>Описание</p>
 							</div>
-							<div className="video__body-text">
-								<div className="video__title">
-									<p>Описание</p>
+							<div className="video__text">
+								Увлажняющий крем "Moisturizing" восстанавливает баланс влаги для сухой, комбинированной и обезвоженной жирной кожи. Содержит
+								физиологический увлажнитель кожи (натуральный увлажняющий фактор), который возвращает клеткам естественную влагоудерживающую
+								способность и восстанавливает защитный барьер. Фитостеролы абиссинской горчицы содержат редкую эруковую кислоту и увеличивают степень
+								гидратации кожи более чем на 60%. Гликосфинголипидный комплекс провоцирует синтез собственных церамидов. Масло муса из мякоти и кожуры
+								бананов интенсивно питает и смягчает кожу, уменьшает выраженность пигментных пятен. Экстракты овса, льна и пажитника обладают мощными
+								омолаживающими, питательными и регенерирующими действиями.
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section className="full-goods__coments">
+				<div className="full-goods__container container">
+					<Title name={'коментарі'} goIn={'залишить коментар'} linck={'/'} />
+
+					<div className="full-goods__content">
+						<div className="full-goods__coment">
+							<div>
+								<p>user</p>
+								<p>25 червня 2023</p>
+								<div className="full-goods__coment-rating">
+									<div className="full-goods__coment-items">
+										<div className="full-goods__coment-item">★</div>
+										<div className="full-goods__coment-item">★</div>
+										<div className="full-goods__coment-item activ">★</div>
+										<div className="full-goods__coment-item">★</div>
+										<div className="full-goods__coment-item">★</div>
+									</div>
 								</div>
-								<div className="video__text">
-									Увлажняющий крем "Moisturizing" восстанавливает баланс влаги для сухой, комбинированной и обезвоженной жирной кожи. Содержит
-									физиологический увлажнитель кожи (натуральный увлажняющий фактор), который возвращает клеткам естественную влагоудерживающую
-									способность и восстанавливает защитный барьер. Фитостеролы абиссинской горчицы содержат редкую эруковую кислоту и увеличивают
-									степень гидратации кожи более чем на 60%. Гликосфинголипидный комплекс провоцирует синтез собственных церамидов. Масло муса из
-									мякоти и кожуры бананов интенсивно питает и смягчает кожу, уменьшает выраженность пигментных пятен. Экстракты овса, льна и пажитника
-									обладают мощными омолаживающими, питательными и регенерирующими действиями.
+							</div>
+							<div>
+								<div className="full-goods__coment-name-goods">
+									<p>Оценка продукта : Маска "Ефект" (150 г) </p>
+								</div>
+								<div className="full-goods__coment-body">
+									Экстракты овса, льна и пажитника обладают мощными омолаживающими, питательными и регенерирующими действиями.
+								</div>
+							</div>
+						</div>
+						<div className="full-goods__coment">
+							<div>
+								<p>user</p>
+								<p>25 червня 2023</p>
+								<div className="full-goods__coment-rating">
+									<div className="full-goods__coment-items">
+										<div className="full-goods__coment-item">★</div>
+										<div className="full-goods__coment-item activ">★</div>
+										<div className="full-goods__coment-item">★</div>
+										<div className="full-goods__coment-item">★</div>
+										<div className="full-goods__coment-item">★</div>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div className="full-goods__coment-name-goods">
+									<p>Оценка продукта : Маска "Ефект" (150 г) </p>
+								</div>
+								<div className="full-goods__coment-body">
+									Экстракты овса, льна и пажитника обладают мощными омолаживающими, питательными и регенерирующими действиями.
+								</div>
+							</div>
+						</div>
+						<div className="full-goods__coment">
+							<div>
+								<p>user</p>
+								<p>25 червня 2023</p>
+								<div className="full-goods__coment-rating">
+									<div className="full-goods__coment-items">
+										<div className="full-goods__coment-item">★</div>
+										<div className="full-goods__coment-item">★</div>
+										<div className="full-goods__coment-item">★</div>
+										<div className="full-goods__coment-item activ">★</div>
+										<div className="full-goods__coment-item">★</div>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div className="full-goods__coment-name-goods">
+									<p>Оценка продукта : Маска "Ефект" (150 г) </p>
+								</div>
+								<div className="full-goods__coment-body">
+									Экстракты овса, льна и пажитника обладают мощными омолаживающими, питательными и регенерирующими действиями.
 								</div>
 							</div>
 						</div>
 					</div>
-				</section>
-				<section className="full-goods__coments">
+				</div>
+			</section>
+			<section className="full-goods__peyment">
+				<div className="full-goods__container container">
+					<Title name={'оплата и доставка'} goIn={'все условия'} linck={'/'} />
+				</div>
+				<div className="full-goods__peyment-content">
 					<div className="full-goods__container container">
-						<Title name={'коментарі'} goIn={'залишить коментар'} linck={'/'} />
+						<div className="full-goods__peyment-icons">
+							<div className="full-goods__peyment-icon">
+								<img src={imgGroup3} alt="" />
 
-						<div className="full-goods__content"></div>
+								<p>Оплата при получении</p>
+							</div>
+							<div className="full-goods__peyment-icon">
+								<img src={imgGroup1} alt="" />
+
+								<p>быстрая доставка</p>
+							</div>
+							<div className="full-goods__peyment-icon">
+								<img src={imgGroup2} alt="" />
+
+								<p>деревянная упаковка</p>
+							</div>
+						</div>
 					</div>
-				</section>
+					<div className="full-goods__peyment-content_bg">
+						<img src={imgBG} alt="ibg" />
+					</div>
+				</div>
+			</section>
+			<section className="full-goods__related">
+				<div className="full-goods__container container">
+					<Title name={'сопутствующие товары '} goIn={'показать ещё'} linck={'/'} />
+
+					<div className="full-goods__content-related">
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</div>
+				</div>
+			</section>
+
+			<div className="full-goods__add-coment">
+				<AddComent />
 			</div>
 		</div>
 	);
