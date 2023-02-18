@@ -25,9 +25,9 @@ function App() {
 				<Header />
 			</header>
 			<main>
-				<Home />
+				{/* <Home /> */}
 				{/* <Goods /> */}
-				{/* <FullGoods /> */}
+				<FullGoods />
 				{/* <About /> */}
 				{/* <Blog /> */}
 				{/* <Comments /> */}

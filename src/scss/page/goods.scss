@@ -1,6 +1,14 @@
 .goods {
+	position: relative;
 	margin: 25px 0;
 	// .goods__container
+
+	&__popab-Info {
+		position: fixed;
+		top: 0;
+		right: 0;
+		z-index: 10;
+	}
 
 	&__container {
 	}

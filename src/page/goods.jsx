@@ -12,7 +12,7 @@ const Goods = () => {
 	return (
 		<div className="goods">
 			<div className="goods__container container">
-				<Title />
+				<Title name={'магазин'} goIn={'корзина'} linck={'/'} />
 				<div className="goods__content">
 					<aside className="goods__sidebar">
 						<div className="goods__filtr">
@@ -151,7 +151,7 @@ const Goods = () => {
 					</div>
 				</div>
 			</div>
-			{/* <AddGoods /> */}
+			<div className="goods__popab-Info">{/* <AddGoods /> */}</div>
 		</div>
 	);
 };
