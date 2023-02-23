@@ -412,6 +412,7 @@
 	display: flex;
 	position: relative;
 	margin-bottom: 15px;
+	color: #365c00;
 
 	// .video__video
 	&__video-bg {
@@ -429,6 +430,7 @@
 	// .video__body-text
 
 	&__body-text {
+		color: inherit;
 	}
 
 	// .video__title

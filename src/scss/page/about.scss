@@ -1,0 +1,24 @@
+.about-pege {
+	color: #365c00;
+	&__header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 25px;
+	}
+
+	&__header-text {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		max-width: 1110px;
+
+		p {
+			padding: 20px 0;
+			font-weight: 600;
+			font-size: 24px;
+			line-height: 33px;
+			color: #365c00;
+		}
+	}
+}

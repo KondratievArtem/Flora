@@ -17,7 +17,7 @@ import imgGroup3 from '../source/img/full-goods/payment/Maskgroup2.svg';
 
 const FullGoods = () => {
 	return (
-		<div className="main__full-goods full-goods">
+		<article className="main__full-goods full-goods">
 			<section className="full-goods__container container">
 				<Title name={'КремДео "BeeFresh" (18 мл)'} goIn={'в магазин'} linck={'/'} />
 				<div className="full-goods__inf-goods ">
@@ -280,10 +280,10 @@ const FullGoods = () => {
 				</div>
 			</section>
 
-			<div className="full-goods__add-coment">
+			{/* <div className=" full-goods__add-coment">
 				<AddComent />
-			</div>
-		</div>
+			</div> */}
+		</article>
 	);
 };
 

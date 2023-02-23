@@ -27,8 +27,8 @@ function App() {
 			<main>
 				{/* <Home /> */}
 				{/* <Goods /> */}
-				<FullGoods />
-				{/* <About /> */}
+				{/* <FullGoods /> */}
+				<About />
 				{/* <Blog /> */}
 				{/* <Comments /> */}
 				{/* <DeliveriCondition /> */}

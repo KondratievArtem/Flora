@@ -132,11 +132,6 @@
 			visibility: hidden;
 		}
 
-		input:checked,
-		input:checked ~ label {
-			color: #365c00;
-		}
-
 		label {
 			flex: 0 1 20%;
 			height: 100%;
@@ -145,6 +140,8 @@
 			&::before {
 				content: '★';
 				display: block;
+				cursor: pointer;
+				transition: color 0.3s ease 0s;
 			}
 		}
 
