@@ -14,6 +14,7 @@ import Order from './page/order';
 import Partners from './page/partners';
 import SignUp from './page/signUp';
 import Account from './page/account';
+import ArticlePage from './page/article';
 // components
 import Header from './componans/header';
 import Footer from './componans/footer';
@@ -28,17 +29,18 @@ function App() {
 				{/* <Home /> */}
 				{/* <Goods /> */}
 				{/* <FullGoods /> */}
-				<About />
+				{/* <About /> */}
 				{/* <Blog /> */}
+				{/* <ArticlePage /> */}
 				{/* <Comments /> */}
 				{/* <DeliveriCondition /> */}
 				{/* <Partners /> */}
 				{/* <Club /> */}
-				{/* <Basket /> */}
+				<Basket />
 				{/* <Order /> */}
 				{/* <SignUp /> */}
-				{/* <NotFound /> */}
 				{/* <Account /> */}
+				{/* <NotFound /> */}
 			</main>
 
 			<footer>

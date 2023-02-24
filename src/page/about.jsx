@@ -10,14 +10,15 @@ import imgGroup2 from '../source/img/home/about/Group2.png';
 import imgGroup3 from '../source/img/home/about/Group3.png';
 import imgGroup4 from '../source/img/home/about/Group4.svg';
 import imgBG from '../source/img/home/about/Vector.png';
+import ibg from '../source/img/about/48694031_fon.png';
 
 const About = () => {
 	return (
 		<article className="main__about about-page">
 			<section>
 				<div className="about-page__container container">
-					<div className="about-pege__header">
-						<div className="about-pege__header-text">
+					<div className="about-page__header">
+						<div className="about-page__header-text">
 							<p>
 								Наша продукция не содержит вредных консервантов, но может долго храниться благодаря веществам, которые нам подарила сама природа. Это
 								премиальные эфирные масла Карел Хадек, соль и пчелиный воск, которые известны всему миру как очень мощные консервирующие и полезные
@@ -46,6 +47,9 @@ const About = () => {
 								</div>
 							</div>
 						</div>
+					</div>
+					<div className="about-page__bg ibg">
+						<img src={ibg} alt="" />
 					</div>
 				</div>
 			</section>

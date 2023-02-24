@@ -1,11 +1,11 @@
 import imgBg from '../source/img/home/blog/Rectangle.png';
 import '../scss/components/blog.scss';
 
-const Blog = () => {
+const Blog = ({ revers }) => {
 	return (
 		<>
 			<div className="blog">
-				<div className="blog__body">
+				<div className={`blog__body ${revers ? 'blog__body_rev' : ''}`}>
 					<div className="blog__columns">
 						<div className="blog__column blog__column_mog">
 							<div className="blog__item">

@@ -42,7 +42,7 @@ const FullGoods = () => {
 							<div className="full-goods__inf-goods-body__summ">
 								<div className="add-goods__content-conclusion-body">
 									<div>
-										<p>180</p>
+										<s>180</s>
 										<div className="cart-catalog__sell cart-catalog__sell_add-goods">
 											<span>20%</span>
 										</div>
