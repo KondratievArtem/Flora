@@ -1,0 +1,35 @@
+.article-page {
+	// .article-page__container
+
+	&__container {
+	}
+
+	// .article-page__title
+
+	&__title {
+	}
+
+	// .article-page__body
+
+	&__body {
+	}
+
+	// .article-page__discription
+
+	&__discription {
+		margin: 40px 0 50px;
+
+		p {
+			font-size: 16px;
+			line-height: 22px;
+
+			color: #365c00;
+		}
+	}
+
+	// .article-page__instagram
+
+	&__instagram {
+		margin-bottom: 25px;
+	}
+}

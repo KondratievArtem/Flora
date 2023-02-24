@@ -1,0 +1,31 @@
+.blog-page {
+	// .blog-page__container
+
+	&__container {
+	}
+
+	// .blog-page__title
+
+	&__title {
+	}
+
+	// .blog-page__blog-body
+
+	&__blog-body {
+	}
+
+	// .blog-page__blog-item
+
+	&__blog-item {
+		display: flex;
+		margin-bottom: 50px;
+
+		// .blog-page__blog-item_mod
+		&_mod {
+		}
+	}
+
+	&__instagram {
+		padding-bottom: 25px;
+	}
+}

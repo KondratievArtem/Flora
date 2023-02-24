@@ -1,0 +1,53 @@
+.order-page {
+	// .order-page__container
+
+	&__container {
+	}
+
+	// .order-page__title
+
+	&__title {
+	}
+
+	// .order-page__icons
+
+	&__icons {
+	}
+
+	// .order-page__content
+
+	&__content {
+	}
+
+	// .order-page__content-container
+
+	&__content-container {
+	}
+
+	// .order-page__content-title
+
+	&__content-title {
+	}
+
+	// .order-page__body
+
+	&__body {
+		font-size: 14px;
+		line-height: 19px;
+
+		color: #365c00;
+
+		h6,
+		b {
+			padding: 20px 0;
+			text-transform: uppercase;
+			font-weight: 600;
+			display: block;
+		}
+
+		address {
+			font-weight: 600;
+			font-style: normal;
+		}
+	}
+}
