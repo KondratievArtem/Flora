@@ -70,10 +70,18 @@ h4,
 h5,
 h6 {
 	font-size: inherit;
-	font-weight: 400;
+	font-weight: inherit;
 }
 
 p {
 	font-weight: inherit;
 	color: inherit;
+}
+
+em {
+	font-style: normal;
+}
+
+::placeholder {
+	color: rgba(54, 92, 0, 0.2);
 }

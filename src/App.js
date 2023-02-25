@@ -5,7 +5,6 @@ import Basket from './page/basket';
 import Blog from './page/blog';
 import Club from './page/club';
 import Comments from './page/comments';
-import DeliveriCondition from './page/deliveryCondition';
 import FullGoods from './page/fullGoods';
 import Goods from './page/goods';
 import Home from './page/home';
@@ -15,6 +14,7 @@ import Partners from './page/partners';
 import SignUp from './page/signUp';
 import Account from './page/account';
 import ArticlePage from './page/article';
+import QuickOrder from './page/quickOrder';
 // components
 import Header from './componans/header';
 import Footer from './componans/footer';
@@ -33,12 +33,12 @@ function App() {
 				{/* <Blog /> */}
 				{/* <ArticlePage /> */}
 				{/* <Comments /> */}
-				{/* <DeliveriCondition /> */}
+				{/* <QuickOrder /> */}
 				{/* <Partners /> */}
 				{/* <Club /> */}
-				<Basket />
+				{/* <Basket /> */}
 				{/* <Order /> */}
-				{/* <SignUp /> */}
+				<SignUp />
 				{/* <Account /> */}
 				{/* <NotFound /> */}
 			</main>
