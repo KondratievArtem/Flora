@@ -25,7 +25,7 @@ function App() {
 			<Header />
 
 			<main>
-				{/* <Home /> */}
+				<Home />
 				{/* <Goods /> */}
 				{/* <FullGoods /> */}
 				{/* <About /> */}
@@ -38,7 +38,7 @@ function App() {
 				{/* <Basket /> */}
 				{/* <Order /> */}
 				{/* <SignUp /> */}
-				<Account />
+				{/* <Account /> */}
 				{/* <NotFound /> */}
 			</main>
 

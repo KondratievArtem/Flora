@@ -12,7 +12,7 @@ const Account = () => {
 					<Title name={'Моя учетная запись'} goIn={'выход  из аккаунта'} linck={'/'} />
 				</div>
 
-				<div className="account-page__data data-account">
+				<div className="account-page__data data-account activ">
 					<div className="data-account__button">
 						<button>
 							<span>ДОБАВИТЬ МОЙ АДРЕС</span>
