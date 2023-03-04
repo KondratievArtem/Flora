@@ -3,10 +3,11 @@ import logo from '../source/img/logo/image 2.png';
 import imgBasket from '../source/img/ikon/bascket.svg';
 import imgUser from '../source/img/ikon/user.svg';
 import imgSearch from '../source/img/ikon/search.svg';
+import SignIn from './signIn';
 
 const Header = () => {
 	return (
-		<>
+		<header className="header">
 			<div className="header__container container">
 				<nav className="header__content">
 					<div className="header__nav-blog nav-blog">
@@ -161,7 +162,8 @@ const Header = () => {
 					</div>
 				</nav>
 			</div>
-		</>
+			<SignIn />
+		</header>
 	);
 };
 

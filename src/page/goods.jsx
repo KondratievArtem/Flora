@@ -151,7 +151,11 @@ const Goods = () => {
 					</div>
 				</div>
 			</div>
-			<div className="goods__popab-Info">{/* <AddGoods /> */}</div>
+			<div className="goods__popab-Info">
+				{
+					// <AddGoods />
+				}
+			</div>
 		</div>
 	);
 };

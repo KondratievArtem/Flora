@@ -22,9 +22,8 @@ import Footer from './componans/footer';
 function App() {
 	return (
 		<div className="wrapper">
-			<header>
-				<Header />
-			</header>
+			<Header />
+
 			<main>
 				{/* <Home /> */}
 				{/* <Goods /> */}
@@ -38,8 +37,8 @@ function App() {
 				{/* <Club /> */}
 				{/* <Basket /> */}
 				{/* <Order /> */}
-				<SignUp />
-				{/* <Account /> */}
+				{/* <SignUp /> */}
+				<Account />
 				{/* <NotFound /> */}
 			</main>
 
